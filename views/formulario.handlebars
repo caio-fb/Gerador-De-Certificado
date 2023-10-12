@@ -1,0 +1,39 @@
+<h2>Preencha seus dados</h2>
+
+<form action="/certificado" method="POST">
+   <div>
+        <div>
+            Nome:
+        </div>
+        <br/>
+        <div>
+            <input type="text" name="nome">
+        </div>
+        <br/>
+        <div>
+            <div>
+                Selecione o curso:
+            </div>
+            <br/>
+            <select name="curso">
+                <option value="Introdução ao Node.js">Introdução ao Node.js</option>
+                <option value="Node.js + express">Node.js + express</option>
+                <option value="Curso de Node.js completo">Curso de Node.js completo</option>
+            </select>
+        </div>
+        <br/>
+        <div>
+            <div>
+                Selecione a quantidade de horas do seu curso:
+            </div>        
+            <br/>
+            <select name="horas">
+                <option value="8">8 horas</option>
+                <option value="16">16 horas</option>
+                <option value="32">32 horas</option>
+            </select>
+        </div>
+        <br/>
+        <input type="submit" value="Gerar certificado" />
+   </div>
+</form>
